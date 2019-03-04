@@ -19,6 +19,8 @@ yellowDiamond = Math.floor(Math.random() * 12 + 1);
 console.log("Yellow Diamond number: " + yellowDiamond);
 saphire = Math.floor(Math.random() * 12 + 1);
 console.log("Saphire number: " + saphire);
+emerald = Math.floor(Math.random() * 12 + 1);
+console.log("Saphire number: " + saphire);
 }
 
 setVariables();
@@ -28,6 +30,116 @@ setVariables();
 $(document).ready(function () { 
 
 
-    
+
 })
 
+var wins = 0;
+var losses = 0;
+
+var ruby, yellowDIamond, saphire, emerald, userScore, targetScore;
+
+
+
+
+
+// }
+
+
+// // setVariables()
+
+// // $(document).ready(function () {
+// //     $("#userScore").text(userScore);
+// //     $("#targetScore").text(targetScore);
+// //     $("#wins").text(wins); 
+// //     $("#losses").text(losses); 
+
+
+// //     $("ruby").click(function() {
+// //         console.log("click")
+// //         userScore = userScore + ruby;
+// //         // userScore += gemA short hand for above line
+// //         $("#userScore").text(userScore); 
+
+// //         if(userScore === targetScore) {
+// //             alert("You Won!");
+// //             wins++;
+// //             $("#wins").text(wins); 
+// //             setVariables();
+// //         }
+// //         else if (userScore > targetScore) {
+// //             alert("You Lost!");
+// //             losses++;
+// //             $("#losses").text(losses); 
+// //                     setVariables();
+        
+// //         }
+    
+//     })
+
+//     $("#yellowDiamond").click(function() {
+//         console.log("click")
+//         userScore = userScore + yellowDiamond;
+//         // userScore += gemA short hand for above line
+//         $("#userScore").text(userScore); 
+
+//         if(userScore === targetScore) {
+//             alert("You Won!");
+//             wins++;
+//             $("#wins").text(wins); 
+//             setVariables();
+//         }
+//         else if (userScore > targetScore) {
+//             alert("You Lost!");
+//             losses++;
+//             $("#losses").text(losses); 
+//                     setVariables();
+        
+//         }
+    
+//     })
+
+//     $("#saphire").click(function() {
+//         console.log("click")
+//         userScore = userScore + saphire;
+//         // userScore += gemA short hand for above line
+//         $("#userScore").text(userScore); 
+
+//         if(userScore === targetScore) {
+//             alert("You Won!");
+//             wins++;
+//             $("#wins").text(wins); 
+//             setVariables();
+//         }
+//         else if (userScore > targetScore) {
+//             alert("You Lost!");
+//             losses++;
+//             $("#losses").text(losses); 
+//                     setVariables();
+        
+//         }
+    
+//     })
+
+//     $("#emerald").click(function() {
+//         console.log("click")
+//         userScore = userScore + emerald;
+//   
+//         $("#userScore").text(userScore); 
+
+//         if(userScore === targetScore) {
+//             alert("You Won!");
+//             wins++;
+//             $("#wins").text(wins); 
+//             setVariables();
+//         }
+    
+
+// else if (userScore > targetScore) {
+//     alert("You Lost!");
+//     losses++;
+//     $("#losses").text(losses); 
+//             setVariables();
+
+// }
+
+//     })
